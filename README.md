@@ -33,6 +33,7 @@ Lecturer: vvvanthe
 ## 3. Build and run
 
 ```
+mkdir -p bin
 g++ -std=c++17 -Wall -Wextra src/main.cpp -o bin/p8
 bin/p8 data/sample
 bin/p8 data/sample S001 --add
